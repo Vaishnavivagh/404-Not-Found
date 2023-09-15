@@ -1,0 +1,145 @@
+body{
+    background-color: #474444;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+#page{
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 900px;
+    height: 600px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+
+}
+
+.page-name {
+    font-family: Inconsolata, monospace;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 0;
+}
+img {
+    width: 530.22px;
+    height: 430.43px;
+    top: 265px;
+    left: 77px;
+
+}
+.text-content {
+    margin-left: 20px; /* Add some space between image and text */
+}
+
+.username {
+    font-family: 'Space Mono', monospace;
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #333333;
+}
+.username2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+    margin-top: 10px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none; /* Remove underlines for links */
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.footer {
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* Adjust the layout of the footer content */
+.footer .username3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #999999;
+    
+}
+#mobile-page.mobile {
+    text-align: center;
+    width: 295px;
+    height: 600px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.username-m{
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #333333;
+}
+.username2-m{
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+    margin-top: 9px;
+}
+.btn-m{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    font-family: 'Space Mono', monospace;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none; /* Remove underlines for links */
+    border-radius: 4px;
+    margin-top: 18px;
+}
+.page-name-m{
+    font-family: Inconsolata, monospace;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 6px;
+    
+}
+
+@media (max-width: 768px) {
+    /* Hide the desktop version and show the mobile version */
+    #page.desktop {
+        display: none;
+    }
+    #mobile-page.mobile {
+        display: block;
+    }
+}
+.m-img{
+    width: 286.83px;
+    height: 238px;
+    top: 109px;
+    left: 44px;
+
+}
